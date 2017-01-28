@@ -1,5 +1,6 @@
 import React from 'react'
 import Modal from 'react-modal'
+require('./index.css')
 
 class Default extends React.Component {
   render(){
