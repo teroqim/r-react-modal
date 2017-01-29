@@ -8,7 +8,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, "/dist"),
     filename: "index.js",
-    library: 'Modal',
+    library: 'tModal',
     libraryTarget: 'umd'
   },
   module: {
@@ -23,7 +23,7 @@ module.exports = {
         loader: 'babel-loader',
         query: {
           presets: ['es2015', 'react'],
-          plugins: ['syntax-decorators']
+          plugins: ['syntax-decorators', 'add-module-exports']
         },
         include: path.resolve(__dirname, 'src/')
       },

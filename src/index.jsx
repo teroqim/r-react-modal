@@ -2,7 +2,7 @@ import React from 'react'
 import Modal from 'react-modal'
 require('./index.css')
 
-class Default extends React.Component {
+class tModal extends React.Component {
   render(){
     return (
       <Modal contentLabel='Modal' {...this.props}>
@@ -38,4 +38,4 @@ class Default extends React.Component {
   }
 }
 
-export default Default
+export default tModal
