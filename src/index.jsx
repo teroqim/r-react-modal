@@ -9,7 +9,7 @@ class tModal extends React.Component {
         contentLabel='Modal'
         isOpen={this.props.isOpen}
         onRequestClose={this.props.onRequestClose}>
-        {this.renderSpinnerOverlay(this.props.isLoading).bind(this)}
+        {this.renderSpinnerOverlay(this.props.isLoading)}
         {this.props.children}
       </Modal>
     )
