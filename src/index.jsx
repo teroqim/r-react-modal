@@ -2,7 +2,7 @@ import React from 'react'
 import Modal from 'react-modal'
 require('./index.css')
 
-class tModal extends React.Component {
+class TModal extends React.Component {
   render(){
     return (
       <Modal
@@ -41,4 +41,4 @@ class tModal extends React.Component {
   }
 }
 
-export default tModal
+export default TModal

@@ -1,6 +1,6 @@
 {
   "name": "t-react-modal",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Modal",
   "main": "dist/index.js",
   "scripts": {
@@ -34,13 +34,11 @@
     "react": "^15.4.2",
     "style-loader": "^0.13.1",
     "webpack": "^1.14.0",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "react-modal": "^1.6.5"
   },
   "peerDependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
-  },
-  "dependencies": {
-    "react-modal": "^1.6.5"
   }
 }
