@@ -5,8 +5,11 @@ require('./index.css')
 class tModal extends React.Component {
   render(){
     return (
-      <Modal contentLabel='Modal' {...this.props}>
-        {this.renderSpinnerOverlay(this.props.isLoading)}
+      <Modal
+        contentLabel='Modal'
+        isOpen={this.props.isOpen}
+        onRequestClose={this.props.onRequestClose}>
+        {this.renderSpinnerOverlay(this.props.isLoading).bind(this)}
         {this.props.children}
       </Modal>
     )
