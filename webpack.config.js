@@ -37,6 +37,14 @@ module.exports = {
         commonjs: 'react',
         amd: 'react'
       }
+    },
+    {
+      'react-modal': {
+        root: 'ReactModal',
+        commonjs2: 'react-modal',
+        commonjs: 'react-modal',
+        amd: 'react-modal'
+      }
     }
   ],
   plugins: [
