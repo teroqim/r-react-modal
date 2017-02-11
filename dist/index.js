@@ -97,7 +97,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	        {
 	          contentLabel: 'Modal',
 	          isOpen: this.props.isOpen,
-	          onRequestClose: this.props.onRequestClose },
+	          onRequestClose: this.props.onRequestClose,
+	          style: this.props.style },
 	        this.renderSpinnerOverlay(this.props.isLoading),
 	        this.props.children
 	      );
